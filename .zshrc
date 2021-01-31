@@ -9,10 +9,9 @@ export ZSH="/home/josephe/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="spaceship"
-SPACESHIP_CONDA_VERBOSE=false
+SPACESHIP_CONDA_VERBOSE=true
+SPACESHIP_CONDA_SHOW=true
 SPACESHIP_TIME_SHOW=true
-SPACESHIP_RUBY_SHOW=true
-SPACESHIP_GOLANG_SHOW=true
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -25,7 +24,7 @@ SPACESHIP_GOLANG_SHOW=true
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -75,7 +74,7 @@ ENABLE_CORRECTION="true"
 plugins=(git
 	colorize
 	zsh-autosuggestions)
-
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#888888"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
