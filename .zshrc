@@ -110,7 +110,6 @@ if [[ ! $TERM =~ screen ]]; then
     exec tmux
 fi
 
-source /home/josephe/code/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/josephe/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
